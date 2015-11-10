@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int id_nums[4] = {1000,999,1001,0};
-    char name[] = "User";
-
-    char *names[3] = {"Steve","Mike","Dan"};
+    char *array[3] = {"Dan","Mike","Bob"};
+    int i;
+    for(i=0;i<=2;i++){
+        printf("%s\n",array[i]);
+    }
 }
